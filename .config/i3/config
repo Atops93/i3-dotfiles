@@ -184,6 +184,6 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 exec_always polybar
-exec_always feh --bg-fill ~/Downloads/Wallpapers/clean-wall
+exec_always feh --bg-fill ~/i3-dotfiles/clean-wall
 
 bindsym $mod+p exec flameshot gui
