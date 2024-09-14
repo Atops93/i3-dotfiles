@@ -9,6 +9,7 @@ fi
 
 xrandr --output eDP-1 --mode 1366x768 --left-of HDMI-1 --output HDMI-1 --primary --mode 1920x1080 &
 feh --bg-fill ~/i3-dotfiles/clean-wall
-polybar
+polybar &
 picom &
+xset r rate 200 30 &
 exec i3
